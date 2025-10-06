@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BLOQUE 2: Recursos de Internet - Página Principal</title>
+  <style>
+    :root{
+      --blue: #0b63b7;
+      --subtitle-font: "Arial", sans-serif;
+      --content-font: "Georgia", serif;
+    }
+    body{
+      margin:0;
+      font-family: var(--content-font);
+      background:#f7f9fc;
+      color:#222;
+      line-height:1.5; /* interlineado 1.5 */
+    }
+    header{
+      background:linear-gradient(90deg,var(--blue),#4aa3ff);
+      color:white;
+      padding:24px;
+      text-align:center;
+    }
+    .container{
+      max-width:1100px;
+      margin:24px auto;
+      padding:16px;
+      background:white;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+      border-radius:8px;
+    }
+    nav ul{
+      list-style:none;
+      padding:0;
+      margin:0;
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    nav a{
+      display:inline-block;
+      background:var(--blue);
+      color:white;
+      padding:10px 14px;
+      border-radius:6px;
+      text-decoration:none;
+      font-weight:600;
+    }
+    nav a:hover{ opacity:0.92; transform:translateY(-1px); transition:0.15s; }
+
+    section.block{
+      margin-top:20px;
+    }
+    h1{
+      margin:0 0 8px 0;
+      font-family:var(--subtitle-font);
+      font-size:28px;
+    }
+    .instructions{
+      margin-top:8px;
+      color:#05406a;
+    }
+    .menu-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:12px;
+      margin-top:16px;
+    }
+    .card{
+      border:1px solid #e6eefb;
+      padding:12px;
+      border-radius:8px;
+      background:#fbfeff;
+    }
+    footer{
+      text-align:center;
+      color:#666;
+      font-size:14px;
+      margin-top:18px;
+      padding:10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BLOQUE 2: RECURSOS DE INTERNET</h1>
+    <p class="instructions">Haz clic en cada título para abrir el subtema en una nueva ventana.</p>
+  </header>
+
+  <div class="container">
+    <nav aria-label="Menú principal">
+      <ul>
+        <!-- Abre en ventana nueva -->
+        <li><a href="el_mundo_internet.html" target="_blank" rel="noopener">1. El mundo del Internet</a></li>
+        <li><a href="buscando_informacion.html" target="_blank" rel="noopener">2. Buscando información</a></li>
+        <li><a href="compartiendo_informacion.html" target="_blank" rel="noopener">3. Compartiendo información</a></li>
+        <li><a href="espacios_virtuales.html" target="_blank" rel="noopener">4. Espacios virtuales</a></li>
+        <li><a href="sociedades_virtuales.html" target="_blank" rel="noopener">5. Sociedades virtuales</a></li>
+        <li><a href="referencias.html" target="_blank" rel="noopener">Referencias (APA)</a></li>
+      </ul>
+    </nav>
+
+    <section class="block">
+      <h2 style="font-family:Arial, sans-serif; color:var(--blue)">Contenido general</h2>
+      <p>La estructura del sitio está organizada por subtemas. Al hacer clic en cada subtema se abrirá una nueva ventana con el desarrollo del tema y un enlace para volver a esta página principal.</p>
+    </section>
+
+    <section class="block">
+      <h3 style="font-family:Arial, sans-serif; color:var(--blue)">Menú de subtemas (por sección)</h3>
+      <div class="menu-grid">
+        <div class="card">
+          <strong>1. El mundo del Internet</strong>
+          <ul>
+            <li><a href="evolucion_internet.html" target="_blank" rel="noopener">Evolución del internet</a></li>
+            <li><a href="navegando_web.html" target="_blank" rel="noopener">Navegando por la web</a></li>
+            <li><a href="acceso_derecho.html" target="_blank" rel="noopener">Acceso a Internet como derecho</a></li>
+            <li><a href="utilidad_internet.html" target="_blank" rel="noopener">Utilidad del internet</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <strong>2. Buscando información</strong>
+          <ul>
+            <li><a href="buscadores.html" target="_blank" rel="noopener">Buscadores de información</a></li>
+            <li><a href="criterios_seleccion.html" target="_blank" rel="noopener">Criterios de selección</a></li>
+            <li><a href="descarga_almacenamiento.html" target="_blank" rel="noopener">Descarga y almacenamiento</a></li>
+            <li><a href="propiedad_intelectual.html" target="_blank" rel="noopener">Propiedad intelectual</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <strong>3. Compartiendo información</strong>
+          <ul>
+            <li><a href="correo_electronico.html" target="_blank" rel="noopener">Uso del correo electrónico</a></li>
+            <li><a href="creacion_paginas_web.html" target="_blank" rel="noopener">Creación de páginas web</a></li>
+            <li><a href="foros.html" target="_blank" rel="noopener">Participación en foros</a></li>
+            <li><a href="blogs.html" target="_blank" rel="noopener">Colaboración en blogs</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <strong>4. Espacios virtuales</strong>
+          <ul>
+            <li><a href="nube_servicios.html" target="_blank" rel="noopener">Información en la nube</a></li>
+            <li><a href="colaboracion_nube.html" target="_blank" rel="noopener">Colaboración en la nube</a></li>
+            <li><a href="repositorios.html" target="_blank" rel="noopener">Repositorios de información</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <strong>5. Sociedades virtuales</strong>
+          <ul>
+            <li><a href="redes_sociales.html" target="_blank" rel="noopener">Redes sociales</a></li>
+            <li><a href="calidad_info_redes.html" target="_blank" rel="noopener">Calidad de la información</a></li>
+            <li><a href="seguridad_redes.html" target="_blank" rel="noopener">Seguridad en redes sociales</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Proyecto: Recursos de Internet — Unidad: BLOQUE 2</p>
+    </footer>
+  </div>
+</body>
+</html>

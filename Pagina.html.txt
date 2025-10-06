@@ -1,0 +1,22 @@
+Pagina/
+│
+├── index.html
+├── Evolución del internet.html
+├── Navegando por la web.html
+├── Acceso a Internet como derecho.html
+├── Utilidad del internet.html
+├── Buscadores de información.html
+├── Criterios de selección.html
+├── Descarga y almacenamiento.html
+├── Propiedad intelectual.html
+├── Uso del correo electrónico.html
+├── Creación de páginas web.html
+├── Participación en foros.html
+├── Colaboración en blogs.html
+├── Información en la nube.html
+├── Colaboración en la nube.html
+├── Repositorios de información.html
+├── Redes sociales.html
+├── Calidad de la información.html
+├── Seguridad en redes sociales.html
+└── Referencias (APA)/
